@@ -17,7 +17,7 @@ public class MvcDemoController {
         String abc= StringUtils.concat("  ",ab,c);
         user.setAge(28);
         ModelAndView mv=new ModelAndView("mvcdemo");
-        mv.addObject("user",ab);
+        mv.addObject("user",user);
         mv.addObject("abc",abc);
         return mv;
 
