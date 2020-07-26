@@ -13,7 +13,7 @@ public class MvcDemoController {
         User user=new User();
         user.setName("liuliu");
         String ab="sss";
-        String c="cde";
+        String c="cdf";
         String abc= StringUtils.concat("  ",ab,c);
         user.setAge(28);
         ModelAndView mv=new ModelAndView("mvcdemo");
